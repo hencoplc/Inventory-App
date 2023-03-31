@@ -145,13 +145,27 @@ background-color: white;
     height: 870px;
 
 }
+.fa-house {
+    font-size: 25px;
+ margin-left: 10px;
+ margin-bottom: 5px;
+ color: black;
+ background-color: blue;
+}
+.fa-house>h1 {
+    padding-left: 100px;
+    color: black;
+}
 .add-customer{
     background-color: blue;
     padding: 20px;
-    padding-left: 160px;
     color: white;
+ 
     
 }
+
+
+
 .input-details{
     margin-left: 45px;
     margin-top: 150px;
@@ -197,8 +211,11 @@ font-size: 20px;
 .product-header{
     background-color: blue;
     padding: 20px;
-    padding-left: 160px;
+    
     color: white;  
+}
+section>h3{
+    margin: 20px 0px 0px 200px;
 }
 .product-content{
     margin:50px 0px 0px 10px;
@@ -208,7 +225,9 @@ font-size: 20px;
 .input>input{
     height: 50px;
     width: 500px;
-    margin: 10px;
+    margin:10px 20px 10px 0px;
+    outline-color: rgb(196, 189, 189);
+    
 }
 .product{
     margin-top: 120px;
